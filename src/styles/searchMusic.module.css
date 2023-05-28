@@ -1,0 +1,274 @@
+.searchContainer {
+    width: 100%;
+    height: 705px;
+    /* Задайте фиксированную высоту */
+    background: linear-gradient(180deg, rgba(112, 64, 58, 1) 0%, rgba(71, 41, 37, 1) 30%, rgba(66, 38, 34, 1) 50%, rgba(18, 18, 18, 1) 100%);
+    border-radius: 10px;
+    
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer {
+
+    width: 100%;
+    height: 200px;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    align-items: center;
+
+}
+
+.headerContainer img {
+    width: 232px;
+    height: 232px;
+    margin-left: 5%;
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.textContainer {
+    display: block;
+    margin-bottom: -10%;
+    height: 120px;
+}
+
+.textContainer h1 {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    color: white;
+    font-size: 5.5rem;
+    font-family: var(--font-family, CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    margin-left: 3%;
+
+}
+
+.textContainer h5 {
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+    font-family: var(--font-family, CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    margin-left: 4%;
+
+}
+
+.itemsContainer {
+
+    width: 100%;
+    height: 485px;
+    background-color: rgba(18, 18, 18, 0.5);
+    overflow: auto;
+
+
+}
+
+.itemsContainer::-webkit-scrollbar {
+    width: 0;
+    /* Для Chrome, Safari и Opera */
+}
+
+.tableContainer {
+    width: 1180px;
+    padding: 1%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.tableContainer thead {
+    color: #b3b3b3;
+    font-size: 17px;
+    height: 25px;
+
+
+}
+
+
+.tableContainer th {
+    height: 25px;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.tableContainer thead th:nth-child(1) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 40px;
+}
+
+.tableContainer thead th:nth-child(2) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 450px;
+}
+
+.tableContainer thead th:nth-child(3) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 313px;
+}
+
+.tableContainer thead th:nth-child(4) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+.tableContainer thead th:nth-child(5) {
+
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 25px;
+    /*display: inline-block;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.tableContainer thead th:nth-child(5) img {
+    width: 20px;
+    height: 20px;
+    filter: invert(80%);
+    -webkit-filter: invert(80%);
+    margin-bottom: 5%;
+}
+
+.listRows {
+    
+}
+
+.listRows a {
+    /*width: 100%;*/
+}
+.listRows tr{
+    max-height: 55px;
+}
+.rows {
+    /*height: 50px;*/
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+.rows:hover {
+    background-color: rgba(179, 179, 179, 0.5);
+
+}
+
+.rows img {
+    width: 38px;
+    height: 38px;
+    margin-left: 3%;
+}
+
+.style1 {
+    display: flex;
+    width: 300px;
+
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.style2 {
+    display: block;
+    padding-left: 6%;
+    width: 300px;
+}
+
+.style2 h3 {
+    height: 25px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 800px;
+}
+
+.style2 h5 {
+    height: 25px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    color: rgba(179, 179, 179);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.cel1 {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    text-align: center;
+}
+
+.cel1 img {
+    width: 24px;
+    height: 24px;
+}
+
+.like {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(5402%) hue-rotate(120deg) brightness(93%) contrast(88%);
+}
+
+.cell1 {
+    margin: 0;
+    padding: 0;
+    width: 310px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}
+
+
+.cell2 {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    text-align: center;
+
+}
+
+.cell3 {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    text-align: center;
+
+}
+
+.inputStyle{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 100px;
+    background-color: #121212;
+    border: none;
+    border-radius: 50px;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    color: #ffffff;
+    padding-left: 2%;
+    font-size: 20px;
+}
+
+.inputStyle:active{
+    border: 1px solid #ffffff;
+
+}

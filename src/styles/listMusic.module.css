@@ -1,0 +1,238 @@
+.listContainer {
+    width: 100%;
+    height: 705px;
+    background: linear-gradient(180deg, rgba(82,58,158,1) 0%, rgba(45,32,87,1) 30%, rgba(33,23,62,1) 50%, rgba(18,18,18,1) 100%);
+    /*overflow: hidden;*/
+    border-radius: 10px;
+}
+
+.headerContainer {
+
+    width: 100%;
+    height: 340px;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    align-items: center;
+
+}
+
+.headerContainer img {
+    width: 232px;
+    height: 232px;
+    margin-left: 5%;
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.textContainer {
+    display: block;
+    margin-bottom: -10%;
+    height: 120px;
+}
+
+.textContainer h1 {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    color: white;
+    font-size: 5.5rem;
+    font-family: var(--font-family, CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    margin-left: 3%;
+
+}
+
+.textContainer h5 {
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+    font-family: var(--font-family, CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    margin-left: 4%;
+
+}
+
+.itemsContainer {
+
+    width: 100%;
+    background-color: rgba(18, 18, 18, 0.5);
+    height: 361px;
+    overflow-y: auto;
+    
+
+}
+
+.itemsContainer::-webkit-scrollbar {
+    width: 0;
+    /* Для Chrome, Safari и Opera */
+}
+
+.tableContainer{
+    width: 1180px;
+    padding: 1%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.tableContainer thead {
+    color: #b3b3b3;
+    font-size: 17px;
+    height: 25px;
+    
+    
+}
+
+
+.tableContainer th {
+    height: 25px;
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+.tableContainer thead th:nth-child(1) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 40px;
+}
+
+.tableContainer thead th:nth-child(2) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 450px;
+}
+
+.tableContainer thead th:nth-child(3) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 313px;
+}
+
+.tableContainer thead th:nth-child(4) {
+    /*display: inline-block;*/
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+.tableContainer thead th:nth-child(5) {
+    
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 25px;
+    /*display: inline-block;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.tableContainer thead th:nth-child(5) img {
+    width: 20px;
+    height: 20px;
+    filter: invert(80%);
+    -webkit-filter: invert(80%);
+    margin-bottom: 5%;
+}
+.listRows{
+    
+}
+
+.listRows a{
+    width: 100%;
+}
+
+.rows{
+    /*height: 50px;*/
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.rows:hover{
+    background-color: rgba(179,179,179, 0.5);
+    
+}
+.rows img {
+    width: 38px;
+    height: 38px;
+    margin-left: 3%;
+}
+
+.style1{
+    display: flex;
+    width: 300px;
+    
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.style2{
+    display: block;
+    padding-left: 6%;
+}
+.style2 h3{
+    height: 25px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.style2 h5{
+    height: 25px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    color:  rgba(179,179,179);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+.cel1 {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    text-align: center;
+}
+.cel1 img {
+    width: 24px;
+    height: 24px;
+}
+
+.like{
+    filter: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(5402%) hue-rotate(120deg) brightness(93%) contrast(88%);
+}
+.cell1 {
+    margin: 0;
+    padding: 0;
+    width: 310px;
+    text-align: center;
+}
+
+
+.cell2 {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    text-align: center;
+   
+}
+.cell3 {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    text-align: center;
+    
+}
+
+/*.rows td:nth-child(1) {
+    width: 50px;
+    height: 50px;
+}*/
